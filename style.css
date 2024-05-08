@@ -434,6 +434,74 @@ ul {
   text-align: center;
   width: 100%;
 }
+.action-second {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 15px;
+}
+.action-timer {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #1b1a1d;
+  border-radius: 10px;
+}
+.action-timer p {
+  font-size: 8px;
+  font-weight: 100;
+  text-align: right;
+  width: 100%;
+}
+.timer {
+  margin-left: 10px;
+}
+.timer p {
+  text-align: left;
+}
+.timer i {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.action-timer-hours {
+  margin-right: 10px;
+}
+.action-timer-hours h4 {
+  text-align: right;
+  font-size: 18px;
+}
+.action-humidity {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #1b1a1d;
+  border-radius: 10px;
+}
+.humidity {
+  margin-left: 10px;
+}
+.humidity p {
+  text-align: left;
+  font-size: 10px;
+}
+.humi-percentage {
+  width: 20px;
+  text-align: right;
+  margin-left: 25px;
+  font-size: 20px;
+}
+.humi-percentage p {
+  font-size: 8px;
+  font-weight: 300;
+}
 .weather-today {
   width: 95px;
   height: 105px;
