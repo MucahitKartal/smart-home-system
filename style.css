@@ -19,7 +19,6 @@ main {
 
   width: 1200px;
   margin: 100px auto;
-  background-color: #6e6e6e;
 }
 nav {
   display: flex;
@@ -38,6 +37,16 @@ ul {
   justify-content: space-between;
   font-size: 12px;
   width: 300px;
+}
+.nav-marker {
+  position: absolute;
+  top: 5px;
+  left: 420px;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #706b6b;
+  border-radius: 50%;
 }
 .user-image {
   width: 30px;
